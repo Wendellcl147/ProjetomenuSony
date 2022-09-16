@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Play&family=Poppins:wght@500;800&family=Roboto:wght@700&display=swap");
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/img/Desktop\ -\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.container {
+  width: 1154px;
+  height: 758px;
+  background: #51c8bc;
+  border-radius: 26px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.coluna-esquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  position: absolute;
+  z-index: 2;
+  padding: 30px;
+  max-width: 100%;
+}
+.coluna-esquerda h1 {
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+  max-width: 15ch;
+  color: white;
+  font-size: 45px;
+}
+
+.VR {
+  max-width: 100px;
+}
+.console {
+  position: absolute;
+  top: 300px;
+  left: -140px;
+  max-width: 690px;
+}
+
+/* Parte direita */
+
+.container-2 {
+  position: absolute;
+  z-index: 1;
+  width: 729px;
+  height: 758px;
+  background-color: #fff;
+  top: 0%;
+  left: 37%;
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-2 h1 {
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+  max-width: 15ch;
+  color: #000;
+  font-size: 45px;
+}
+
+.container-2 form input {
+  display: block;
+  width: 510px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  margin: 20px;
+  border-bottom: 1px solid #bebcbc;
+  font-family: "Poppins", sans-serif;
+}
+
+.aceito {
+  color: #bebcbc;
+  height: 10px;
+}
+
+.botão {
+  width: 450px;
+  height: 50px;
+  background-color: #3badcd;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.botão:hover {
+  background-color: #51c8bc;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.login {
+  display: flex;
+  gap: 100px;
+}
+
+.Google {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Google img {
+  width: 23px;
+  height: 27px;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.frase {
+  color: #bebcbc;
+}
+.or {
+  color: #000;
+  font-weight: 600;
+}
+
+.Log {
+  color: #3badcd;
+  cursor: pointer;
+}
